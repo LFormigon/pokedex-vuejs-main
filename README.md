@@ -1,29 +1,12 @@
-# pokedex
+# Pokedex API
 
-This template should help get you started developing with Vue 3 in Vite.
+O projeto "Vue Pokemon.API" é uma aplicação web desenvolvida com o framework Vue.js, que permite aos usuários explorar informações sobre Pokemons e suas evoluções, podendo visualizar algumas Caracteristicas especificas de cada pokemon
 
-## Recommended IDE Setup
+## Funcionalidades Principais
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
+Página Inicial: A página inicial exibe uma lista de Pokemons da Série Pokemons, Podendo Visualizar todos os pokemons e suas evoluções.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Detalhes do Pokemon: Conseguimos Visualizar Caracteristicas especificas de cada Pokemon, Como por exemplo o Sexo e as Habilidades de cada pokemon na nossa Pódekex 
 
-## Project Setup
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
