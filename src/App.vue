@@ -1,8 +1,6 @@
 <script setup>
 </script>
 
-
-
 <template>
   <nav
     class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body"
@@ -22,7 +20,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><routerLink to="/" class="nav-link" aria-current="page">Início</routerLink></li>
           <li class="nav-item"><routerLink to="/about" class="nav-link">Sobre</routerLink></li>
         </ul>
       </div>

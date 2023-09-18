@@ -1,6 +1,6 @@
 <template>
     <div class="about d-flex justify-content-center align-items-center">
-      <h1>Sem contéudo</h1>
+      <h1 class="text-center white--text">Sem contéudo</h1>
     </div>
   </template>
   

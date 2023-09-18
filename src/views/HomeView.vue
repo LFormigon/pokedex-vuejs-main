@@ -47,3 +47,16 @@ onMounted(() => {
       </div>
   </main>
 </template>
+
+
+
+<style>
+.red--text {
+  color: red;
+}
+
+.white--text{
+  color: white;
+
+}
+</style>
