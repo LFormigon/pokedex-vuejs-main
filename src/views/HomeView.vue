@@ -6,7 +6,7 @@ import ListPokemons from '../components/ListPokemons.vue'
 let pokemons = reactive(ref());
 
 onMounted(() => {
-  fetch("https://pokeapi.co/api/v2/pokemon/?limit=10&offset=0")
+  fetch("https://pokeapi.co/api/v2/pokemon/?limit=9&offset=0")
   .then(res => res.json())
   .then(res => {
     pokemons.value = res.results;
@@ -40,6 +40,8 @@ onMounted(() => {
                 :name="pokemon.name"
                 :link="pokemon.url"
                 :showDetails="pokemon.showDetails"
+                :gender="pokemon.gender"
+                :abilities="pokemon.abilities"
               />
             </div>
           </div>
