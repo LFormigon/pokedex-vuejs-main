@@ -22,12 +22,10 @@ onMounted(() => {
               types: pokemonDetails.types.map((e) => e.type),
             })
 
-
             console.log(pokemons.value)
           })
       })
     })
-
 
 });
 
@@ -54,7 +52,7 @@ onMounted(() => {
       <div class="d-flex justify-content-center align-items-center">
         <div class="col-sm-12 col-md-7">
           <div class="card-body row">
-            <ListPokemons v-for="pokemon in pokemons" :key="pokemon.name" :name="pokemon.name" :id="pokemon.id" />
+            <ListPokemons v-for="pokemon in pokemons" :key="pokemon.name" :value="pokemon" />
           </div>
         </div>
       </div>
